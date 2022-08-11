@@ -1,0 +1,6 @@
+https://www.w3schools.com/html/html_tables.asp
+adrese gidilsin
+HTML Tables yazısı test edilsin
+next click
+açılan sayfada
+HTML Table Borders olduğu doğrulansın.
