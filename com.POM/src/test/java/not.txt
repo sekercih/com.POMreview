@@ -4,3 +4,6 @@ HTML Tables yazısı test edilsin
 next click
 açılan sayfada
 HTML Table Borders olduğu doğrulansın.
+
+
+***** Amazon arama testi ve day24 -C03_E'ETest******

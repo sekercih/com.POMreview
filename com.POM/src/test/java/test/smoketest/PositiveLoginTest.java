@@ -2,7 +2,7 @@ package test.smoketest;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.HotelMyCampPage;
+import test.pages.HotelMyCampPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
@@ -17,6 +17,7 @@ public class PositiveLoginTest {
     public void positiveLoginTest(){
         Driver.getDriver().get(ConfigurationReader.getProperty("HMCUrl"));
         //* sayfaya login olalım
+
         page.login.click();
 
         //*geçerli test datası olan username girelim

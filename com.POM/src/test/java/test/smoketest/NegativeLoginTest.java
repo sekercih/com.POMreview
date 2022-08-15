@@ -1,11 +1,8 @@
 package test.smoketest;
 
-import com.github.javafaker.Faker;
-import org.openqa.selenium.By;
-import org.python.modules._locale._locale;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.HotelMyCampPage;
+import test.pages.HotelMyCampPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
@@ -34,7 +31,7 @@ public class NegativeLoginTest {
         softAssert.assertTrue(campPage.tryAgain.isDisplayed());
         softAssert.assertAll();
 
-Driver.closeDriver();
+//Driver.closeDriver();
 
     }
     //* yanlisKulllanici
@@ -51,7 +48,7 @@ Driver.closeDriver();
         softAssert.assertTrue(campPage.resultMessage.isDisplayed());
         softAssert.assertAll();
 
-        Driver.closeDriver();
+      //  Driver.closeDriver();
     }
     //* yanlisSifre ve Kullanici
     @Test
@@ -66,7 +63,8 @@ Driver.closeDriver();
         SoftAssert softAssert=new SoftAssert();
         softAssert.assertTrue(campPage.resultMessage.isDisplayed(),"Kullanıcı isim ve şifrede sorun var");
         softAssert.assertAll();
-        Driver.closeDriver();
+
+       // Driver.closeDriver();
     }
 
 }

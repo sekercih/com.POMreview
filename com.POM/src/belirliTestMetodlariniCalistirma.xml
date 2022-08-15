@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="methotlar">
+    <test name="istenmeyen methot">
+        <classes>
+            <class name="test.smoketest.NegativeLoginTest">
+                <methods>
+                    <exclude name="yanlisSifreveKullanici">
+                    </exclude>
+                </methods>
+            </class>
+            <class name="test.day25.C001_LoremTest">
+                <methods><exclude name="lorem"></exclude></methods>
+            </class>
+        </classes>
+    </test>
+</suite>

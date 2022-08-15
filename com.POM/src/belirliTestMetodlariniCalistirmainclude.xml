@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Lorem class test01">
+    <test name="Test include">
+        <classes>
+            <class name="test.day25.C001_LoremTest">
+                <methods>
+                    <include name="lorem">
+
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

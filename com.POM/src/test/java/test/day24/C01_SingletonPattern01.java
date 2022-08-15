@@ -1,10 +1,12 @@
 package test.day24;
 
 import org.testng.annotations.Test;
+import utilities.Driver;
 
 public class C01_SingletonPattern01 {
     @Test
     public void test01(){
+        Driver.getDriver().get("https://www.teknosa.com/");
 
         //singleton pattern bir class'tan birden fazla obje uretmesine
         //izin vermeyen bir pattern olarak kabul gormustur

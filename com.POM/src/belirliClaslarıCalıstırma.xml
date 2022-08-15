@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirli Classlar">
+    <test name="Classlar">
+        <classes>
+        <!-- ***** Amazon arama testi ve day24 -C03_E'ETest****** -->    
+            <class name="test.AmazonAramaTest"></class>
+            <class name="test.day24.C03__E2ETesting"></class>
+        </classes>
+    </test>
+</suite>

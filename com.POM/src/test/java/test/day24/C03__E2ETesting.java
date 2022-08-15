@@ -6,9 +6,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.HotelMyCampPage;
-import utilities.ConfigurationReader;
+import test.pages.HotelMyCampPage;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class C03__E2ETesting {
     //todo
@@ -28,9 +28,11 @@ public class C03__E2ETesting {
     @Test
     public void createHotel() {
         HotelMyCampPage page = new HotelMyCampPage();
+
         page.login();
         page.bekle(4);
         Faker faker = new Faker();
+
         Actions actions = new Actions(Driver.getDriver());
         page.hotelManagement.click();
         page.hotelList.click();

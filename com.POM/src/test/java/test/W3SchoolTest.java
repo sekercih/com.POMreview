@@ -2,7 +2,7 @@ package test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.W3SchoolPage;
+import test.pages.W3SchoolPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
@@ -19,5 +19,6 @@ public class W3SchoolTest {
 
         Assert.assertTrue(w3School.bordesr.isDisplayed());
         System.out.println("w3School.bordesr.getText() = " + w3School.bordesr.getText());
+        Driver.closeDriver();
     }
 }

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belli classlar">
+    <test name="classlar">
+        <classes>
+            <!-- yorum yazmak için-->
+            <class name="test.AmazonAramaTest"></class>
+            <class name="test.W3SchoolTest"></class>
+            <class name="test.day24.C03__E2ETesting"></class>
+
+
+        </classes>
+    </test>
+          
+</suite>
+
