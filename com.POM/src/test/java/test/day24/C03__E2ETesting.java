@@ -6,9 +6,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import test.pages.HotelMyCampPage;
+import pages.HotelMyCampPage;
 import utilities.Driver;
-import utilities.ReusableMethods;
 
 public class C03__E2ETesting {
     //todo

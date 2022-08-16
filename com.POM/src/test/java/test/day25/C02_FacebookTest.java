@@ -1,22 +1,21 @@
-package test;
+package test.day25;
 
 import com.github.javafaker.Faker;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.FacebookPage01;
-import utilities.ConfigurationReader;
+
+import pages.FacebookPage;
 import utilities.Driver;
 
-public class C01_FacebookTest01 {
-
-    @Test()
+public class C02_FacebookTest {
+    @Test(groups = "miniRegression")
     public void facebookTest() {
         //1 - https://www.facebook.com/ adresine gidin
-        Driver.getDriver().get(ConfigurationReader.getProperty("URL"));
+        Driver.getDriver().get("https://facebook.com");
         //2- POM’a uygun olarak email, sifre kutularini ve giris yap butonunu locate edin
         //3- Faker class’ini kullanarak email ve sifre degerlerini yazdirip, giris butonuna basin
-        Faker faker=new Faker();
-        FacebookPage01 facebookPage=new FacebookPage01();
+        Faker faker = new Faker();
+        FacebookPage facebookPage = new FacebookPage();
         facebookPage.emailBox.sendKeys(faker.internet().emailAddress());
         facebookPage.passwordBox.sendKeys(faker.internet().password());
         facebookPage.girisButton.click();

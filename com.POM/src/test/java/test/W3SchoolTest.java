@@ -2,7 +2,7 @@ package test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import test.pages.W3SchoolPage;
+import pages.W3SchoolPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 

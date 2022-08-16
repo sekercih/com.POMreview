@@ -2,7 +2,7 @@ package test.smoketest;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import test.pages.HotelMyCampPage;
+import pages.HotelMyCampPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 

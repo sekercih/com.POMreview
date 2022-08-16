@@ -32,4 +32,12 @@ public class FacebookPage {
 
    @FindBy(xpath = "(//*[text()=\"Sign Up\"])[3]")
     public WebElement sign;
+ @FindBy(xpath = "//input[@class='inputtext _55r1 _6luy']")
+ public WebElement emailBox;
+ @FindBy(xpath = "//input[@class='inputtext _55r1 _6luy _9npi']")
+ public WebElement passwordBox;
+ @FindBy(xpath = "//button[@class='_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy']")
+ public WebElement girisButton;
+ @FindBy(xpath = "//div[@class='_9ay7']")
+ public WebElement hataliGiris;
 }

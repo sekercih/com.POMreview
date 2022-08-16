@@ -2,8 +2,8 @@ package test.day25;
 
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import test.pages.HotelMyCampPage;
-import test.pages.HotelMyCampWebTablePage01;
+import pages.HotelMyCampPage;
+import pages.HotelMyCampWebTablePage01;
 
 import java.util.List;
 

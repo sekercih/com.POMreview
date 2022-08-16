@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="grup çaliştirma">
+    <test name="mini RegresyonTesti">
+        <groups>
+            <run>
+                <include name="miniRegression"></include>
+              <exclude name="smoke"></exclude>
+                
+            </run>
+        </groups>
+        <packages>
+            <package name="test.day24"></package>
+            <package name="test.day25"></package>
+            <package name="test.day26"></package>
+        </packages>
+    </test>
+</suite>

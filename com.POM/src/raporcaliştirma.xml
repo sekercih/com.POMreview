@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="rapor çalıştırmak">
+    <test name="HTML reports">
+      <classes>
+          <class name="test.day26.C05_TestNGReports"></class>
+          <class name="test.day26.C06_FacebookTestiReport"></class>
+      </classes>
+    </test>
+</suite>

@@ -4,7 +4,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import test.pages.AmazonPage;
+import pages.AmazonPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
