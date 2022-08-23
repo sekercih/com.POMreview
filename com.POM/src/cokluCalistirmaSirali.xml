@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="coklu calistirma sirali">
+    <test name="sirali farkli browserlarda calisma">
+        <packages>
+            <package name="test.crossBrowserTests"></package>
+        </packages>
+    </test>
+</suite>

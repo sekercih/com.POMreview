@@ -14,7 +14,7 @@ public class PositiveLoginTest {
     //    //3) Bir test method olustur positiveLoginTest()
 
     @Test
-    public void positiveLoginTest(){
+    public void positiveLoginTest() throws InterruptedException {
         Driver.getDriver().get(ConfigurationReader.getProperty("HMCUrl"));
         //* sayfaya login olalım
 
@@ -28,7 +28,7 @@ public class PositiveLoginTest {
 
         //* login işlemini yapalım
         page.loginSubmit.click();
-
+Thread.sleep(5000);
         //*Syafaya login olduğumuzu doğrulayalım
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(page.listOfUser.isDisplayed());
